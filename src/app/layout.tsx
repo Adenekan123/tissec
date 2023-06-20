@@ -1,7 +1,9 @@
+"use client"
 import './globals.css'
-import { Inter } from 'next/font/google'
+import {Titillium_Web } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
+const titillium_Web = Titillium_Web({weight:['300','400','600','700'],preload:false,subsets:['latin'],display:'swap'})
 
 export const metadata = {
   title: 'Create Next App',
@@ -9,7 +11,8 @@ export const metadata = {
 }
 
 import { ThemeProvider } from '@emotion/react'
-import { theme } from '@/theme'
+import { theme } from '@/styles/theme'
+import Header from '@/component/home/header'
 
 export default function RootLayout({
   children,
@@ -18,7 +21,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}><ThemeProvider theme={theme}>{children}</ThemeProvider></body>
+      <body className={titillium_Web.className}><ThemeProvider theme={theme}>
+        <Header/>
+        {children}
+      </ThemeProvider></body>
     </html>
   )
 }
