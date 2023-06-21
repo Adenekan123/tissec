@@ -34,6 +34,14 @@ import { createTheme } from "@mui/material";
                     backgroundColor:'#1d233c'
                 }
             }
+        },
+        MuiButton:{
+            styleOverrides:{
+                root:{
+                    borderRadius:14,
+                    color:'white'
+                }
+            }
         }
     }
 })

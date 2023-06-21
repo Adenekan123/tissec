@@ -15,3 +15,13 @@
         transform: translateZ(-1000em);
     }
 }
+
+@keyframes colorAnimation {
+    0%    {color: #4AA5F0}
+    32%   {color: #4AA5F0}
+    33%   {color: #ffffff}
+    65%   {color: #d88730}
+    66%   {color: #afb6d2}
+    /* 99%   {color: var(--e-global-color-accent)}
+    100%  {color: var(--e-global-color-very-dark-blue)} */
+  }
