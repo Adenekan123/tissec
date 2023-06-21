@@ -10,7 +10,6 @@ import {
   Button,
   AppBar,
   Toolbar,
-  MenuItem,
 } from "@mui/material";
 import { FaFacebookF } from "react-icons/fa";
 import { DEFAULT_STYLES } from "@/styles/default_styles";
