@@ -14,6 +14,7 @@ import { createTheme } from "@mui/material";
     },
     typography:{
         fontFamily:'inherit',
+        fontSize:15,
         h1:{
             fontSize:64
         },

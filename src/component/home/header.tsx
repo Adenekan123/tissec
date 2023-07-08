@@ -17,10 +17,10 @@ import { Twitter, Instagram } from "@mui/icons-material";
 
 import banner_img from "../../assests/whiz-cyber-banner.png";
 import Image from "next/image";
-import { SocialButton } from "../shared";
 import AnimatedBgImage from "../shared/animatedBgImage";
 import Nav from "./nav";
 import SideMenu from "../shared/sideMenu";
+import { SocialButton } from "../shared";
 
 const Header = () => {
   return (
