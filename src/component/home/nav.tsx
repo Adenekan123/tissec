@@ -5,28 +5,28 @@ const Nav = ({navProps}:{navProps:StackProps}) => {
   return (
     <Stack {...navProps}>
     <Button
-      size="large"
+      size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
     >
       Home
     </Button>
     <Button
-      size="large"
+      size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
     >
       About Us
     </Button>
     <Button
-      size="large"
+      size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
     >
       Services
     </Button>
     <Button
-      size="large"
+      size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
     >
