@@ -29,7 +29,7 @@ export const About = () => {
           styles={{ animation: "star 10s ease-out infinite" }}
         />
       </Box>
-      <Grid container spacing={8} sx={{position:'relative',zIndex:1}}>
+      <Grid container spacing={{xs:3,md:8}} sx={{position:'relative',zIndex:1}}>
         <Grid item xs={12} md={6}>
           <Box sx={{ width: "80%", mx: "auto" }}>
             <Stack
@@ -55,7 +55,8 @@ export const About = () => {
                 component={Image}
                 src={about_img3}
                 alt="tech3"
-                width={"80%"}
+                width={{xs:'100%',md:'80%'}}
+                height={{xs:200,md:'auto'}}
               />
             </Box>
           </Box>
@@ -65,7 +66,8 @@ export const About = () => {
             <Heading
               label="about us"
               text="24/7 Cyber Security Operation Center"
-              labelProps={{ mt: 4 }}
+              labelProps={{ mt: {sx:4,md:4}, }}
+              textProps={{mb:{xs:2,md:'inherit'}}}
             />
             <Typography>
               Duis aute irure dolor in reprehenderit in voluptate esse cillu
