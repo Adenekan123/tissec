@@ -25,7 +25,7 @@ export const Heading = ({
       ) : (
         ""
       )}
-      <Typography variant="h3" color={"white"}  sx={{...textProps}} fontWeight={'bolder'} mb={4}>
+      <Typography variant="h3"  color={"white"}  sx={{...textProps}} fontWeight={'bolder'} mb={6}>
         {text}
       </Typography>
     </Box>

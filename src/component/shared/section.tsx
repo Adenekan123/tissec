@@ -16,7 +16,7 @@ export const Section = ({ children }: { children: ReactNode }) => {
         zIndex: 3,
       }}
     >
-      <Container maxWidth={false} sx={{ px: { xs: 2, md: 12 }, py: 10 }}>
+      <Container maxWidth={false} sx={{ px: { base: 3, sm:6, xl: 20 }, py: 10 }}>
         {children}
       </Container>
     </Paper>

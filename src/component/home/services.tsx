@@ -19,7 +19,7 @@ import Image from "next/image";
 import { servicesArr } from "@/store/data";
 import { ServicesModel } from "@/model";
 import { DEFAULT_STYLES } from "@/styles/default_styles";
-const HomeServices = () => {
+export const Services = () => {
   const [services, setServices] = useState<ServicesModel[]>([]);
 
   useEffect(() => {
@@ -90,4 +90,3 @@ const HomeServices = () => {
   );
 };
 
-export default HomeServices;

@@ -17,12 +17,13 @@ import { Twitter, Instagram } from "@mui/icons-material";
 
 import banner_img from "../../assests/whiz-cyber-banner.png";
 import Image from "next/image";
+import forground_img from "../../assests/header-right-img.png";
 import AnimatedBgImage from "../shared/animatedBgImage";
 import Nav from "./nav";
 import SideMenu from "../shared/sideMenu";
 import { SocialButton } from "../shared";
 
-const Header = () => {
+export const Header = () => {
   return (
     <Paper
       square
@@ -76,7 +77,7 @@ const Header = () => {
             transform:'scale(1.4)'
           }}
         >
-          <AnimatedBgImage />
+          <AnimatedBgImage img={forground_img} styles={{animation:'star 10s ease-out infinite'}} />
         </Box>
         <Grid
           container
@@ -146,4 +147,3 @@ const Header = () => {
   );
 };
 
-export default Header;

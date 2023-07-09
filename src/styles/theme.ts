@@ -43,7 +43,24 @@ import { createTheme } from "@mui/material";
                     color:'white'
                 }
             }
+        },
+        MuiListItem:{
+            styleOverrides:{
+                root:{
+                    color:'#afb6d2'
+                }
+            }
+        },
+        MuiListItemIcon:{
+            styleOverrides:{
+                root:{
+                    color:'#d88730',
+                    padding:'0px!important',
+                    minWidth:'30px'
+                }
+            }
         }
-    }
+    },
+
 })
 

@@ -1,10 +1,13 @@
-import HomeServices from '@/component/services/home-services'
-import React from 'react'
+import { About, Services } from "@/component/home";
+import React from "react";
 
 const Home = () => {
   return (
-    <HomeServices/>
-  )
-}
+    <>
+      <Services />
+      <About/>
+    </>
+  );
+};
 
-export default Home
+export default Home;
