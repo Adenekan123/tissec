@@ -5,7 +5,7 @@ import React from "react";
 export type HeadingModel = {
   label?: string;
   labelProps?: SxProps;
-  text: string;
+  text: string | number;
   textProps?: SxProps;
   bothProps?:SxProps;
 }

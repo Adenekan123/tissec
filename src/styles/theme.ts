@@ -47,7 +47,8 @@ import { createTheme } from "@mui/material";
         MuiListItem:{
             styleOverrides:{
                 root:{
-                    color:'#afb6d2'
+                    color:'#afb6d2',
+                    fontSize:16
                 }
             }
         },
