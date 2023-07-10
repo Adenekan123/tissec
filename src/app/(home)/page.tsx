@@ -1,4 +1,4 @@
-import { About, Pricing, Services, Teams, WhatWeDo, WhoWeAre } from "@/component/home";
+import { About, Feedback, Pricing, Services, Teams, WhatWeDo, WhoWeAre } from "@/component/home";
 import React from "react";
 
 const Home = () => {
@@ -10,6 +10,7 @@ const Home = () => {
       <WhatWeDo/>
       <Pricing/>
       <Teams/>
+      <Feedback/>
     </>
   );
 };
