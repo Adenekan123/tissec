@@ -26,13 +26,13 @@ export const Pricing = () => {
         text="Our Flexible Pricing Plans"
         bothProps={{ textAlign: "center" }}
       />
-      <Grid container spacing={3}>
+      <Grid container spacing={3} rowSpacing={{xs:6,md:3}}>
         {pricinglist.map((pricing) => {
           const { id, image, plan, price, priviledges } = pricing;
           return (
-            <Grid item key={id} xs={12} md={4}>
+            <Grid item key={id} xs={12} sm={6} lg={4}>
               <Card sx={{overflow:'initial'}}>
-                <CardContent sx={{ p: { xs: 3, md: 6 },position:'relative',top:-62,textAlign:'center' }}>
+                <CardContent sx={{ p: { xs: 3, md: 6 },position:'relative',top:{xs:-34,md:-62},textAlign:'center' }}>
                   <Stack spacing={4} sx={{textAlign:'center'}}>
                     <Box>
                       <Button variant="contained" color="warning" size="small" sx={{minWidth:150}}>
