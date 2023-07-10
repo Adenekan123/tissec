@@ -42,7 +42,7 @@ export const Header = () => {
         >
           <Toolbar sx={{ justifyContent: "space-between", p: 0 }}>
             <Typography variant="h4" color={"white"}>
-              Logo
+              TISSEC
             </Typography>
 
             <Box sx={{ display: { xs: "none", md: "block" } }}>

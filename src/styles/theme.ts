@@ -59,6 +59,14 @@ export const theme = createTheme({
         },
       },
     },
+    MuiListItemButton: {
+      styleOverrides: {
+        root: {
+          color: "#fff",
+          fontSize: 18,
+        },
+      },
+    },
     MuiTextField: {
       styleOverrides: {
         root: {

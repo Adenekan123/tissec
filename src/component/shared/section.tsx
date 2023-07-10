@@ -3,12 +3,12 @@ import { ReactJSXElement } from "@emotion/react/types/jsx-namespace";
 import { Container, Paper } from "@mui/material";
 import React, { ReactNode } from "react";
 
-export const Section = ({ children }: { children: ReactNode }) => {
+export const Section = ({ children,bg='' }: { children: ReactNode,bg?:string }) => {
   return (
     <Paper
       square
       sx={{
-        backgroundColor: DEFAULT_STYLES.darkerBlue,
+        backgroundColor: bg ? bg :DEFAULT_STYLES.darkerBlue  ,
         backgroundPosition: "center",
         backgroundRepeat: " no-repeat",
         overflow: "hidden",

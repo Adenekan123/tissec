@@ -31,6 +31,7 @@ export const Feedback = () => {
             name="phone"
             placeholder="Phone"
             variant="filled"
+            color="secondary"
           />
         </Grid>
         <Grid item xs={12} md={4}>
@@ -40,6 +41,7 @@ export const Feedback = () => {
             name="email"
             placeholder="Email"
             variant="filled"
+            color="secondary"
           />
         </Grid>
         <Grid item xs={12}>
@@ -50,6 +52,7 @@ export const Feedback = () => {
             variant="filled"
             minRows={4}
             multiline
+            color="secondary"
           />
         </Grid>
         <Grid item xs={12}>
