@@ -67,7 +67,7 @@ export const About = () => {
               label="about us"
               text="24/7 Cyber Security Operation Center"
               labelProps={{ mt: {sx:4,md:4}, }}
-              textProps={{mb:{xs:2,md:'inherit'}}}
+              textProps={{mb:{xs:2,md:3}}}
             />
             <Typography>
               Duis aute irure dolor in reprehenderit in voluptate esse cillu

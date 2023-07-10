@@ -1,4 +1,5 @@
 export const DEFAULT_STYLES = {
+    secondary:'#4aa5f0',
     darkBlue:'#171d34',
     darkBlue2:'#1c223a',
     darkBlue3:'#1A2037',
