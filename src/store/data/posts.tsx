@@ -7,7 +7,7 @@ import preview_img from "../../assests/post-featured-img1.jpg";
 
 export const postArr: PostModel[] = [
   {
-    id: nanoid(12),
+    id: "ActtBUKNS4cw",
     title: "Standard post with a single image",
     date: "Jan 21, 2017",
     thumbnail: img1,
@@ -20,7 +20,7 @@ export const postArr: PostModel[] = [
     ],
   },
   {
-    id: nanoid(12),
+    id: "FUJTxej4NxGA",
     title: "Simplicity, a post with slider gallery",
     date: "Jan 21, 2017",
     thumbnail: img2,
@@ -33,7 +33,7 @@ export const postArr: PostModel[] = [
     ],
   },
   {
-    id: nanoid(12),
+    id: "NLAl38QszURt",
     title: "Simplicity, a post with slider gallery",
     date: "Jan 21, 2017",
     thumbnail: img3,

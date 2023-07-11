@@ -13,7 +13,7 @@ import Image from "next/image";
 import React from "react";
 
 const PostCard = ({ post }: { post: PostModel }) => {
-  const { thumbnail, title, date, body,tags } = post;
+  const {id,thumbnail, title, date, body,tags } = post;
   return (
     <Card variant="outlined" color="secondary" sx={{position:'relative',borderColor:"secondary.main"}}>
       <Box
@@ -39,7 +39,7 @@ const PostCard = ({ post }: { post: PostModel }) => {
 
           <Typography sx={{fontSize:15}}>{body[0]}</Typography>
           <Box>
-            <Button disableElevation color="secondary" variant="text" endIcon={<ArrowRight />}>
+            <Button disableElevation color="secondary" variant="text" endIcon={<ArrowRight />} href={`blog/${post.id}`}>
               Read More
             </Button>
           </Box>

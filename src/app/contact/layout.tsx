@@ -7,7 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <>
       <Header>
         <Banner
-          name="Contact Us"
+          name="About Us"
           description="Quis autem vel eum iure reprehenderit qui in ea voluptate velit
                 esse ruam nihil molestiae."
         />

@@ -30,6 +30,7 @@ export const ServiceCard = ({service}: {service:ServicesModel}) => {
               variant="outlined"
               size="large"
               sx={{ mt: 3, borderColor: DEFAULT_STYLES.softBlue }}
+              
             >
               Read more
             </Button>
