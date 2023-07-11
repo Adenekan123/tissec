@@ -10,7 +10,7 @@ export const Banner = ({name,description}:{name:string;description:string}) => {
     container
     justifyContent={"center"}
     alignItems={"center"}
-    sx={{ minHeight: "80vh", position: "relative", zIndex: 1 }}
+    sx={{ minHeight:{xs:"60vh",md:"80vh"}, position: "relative", zIndex: 1, pt:6}}
   >
     <Grid item xs={12} md={8} lg={5}>
       <Stack

@@ -32,7 +32,7 @@ const Nav = ({navProps}:{navProps:StackProps}) => {
       size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
-      href='/services'
+      href='/blog'
     >
       Blog
     </Button>

@@ -26,7 +26,7 @@ export const Header = ({children}:{children:ReactNode}) => {
         backgroundPosition: "center",
         backgroundRepeat: " no-repeat",
         overflow:'hidden',
-        minHeight:'80vh'
+        minHeight:{xs:"60vh",md:"80vh"}
       }}
     >
       <Container maxWidth={false}>
