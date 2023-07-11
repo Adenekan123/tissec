@@ -23,7 +23,7 @@ export const WhoWeAre = () => {
             laborum incidunt ut labore et dolore magnam.
           </Typography>
 
-          <Stack direction={"row"} spacing={4} mt={3}>
+          <Stack direction={"row"} spacing={{xs:2,md:4}} mt={3} flexWrap={'wrap'} justifyContent={{xs:'center',md:'initial'}}>
             <Box>
               <Typography
                 variant="h4"

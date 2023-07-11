@@ -75,7 +75,7 @@ export const About = () => {
               non proident, sunt in culpa rui officia deserunt mollit ani mid
               est laborum incidunt aut labore magnam.
             </Typography>
-            <Stack direction={"row"} spacing={4}>
+            <Stack direction={"row"} spacing={{xs:0,md:4}} sx={{flexWrap:'wrap'}}>
               <List sx={{ color: "inherit", textAlign: "inherit" }}>
                 <ListItem sx={{ pl: 0 }}>
                   <ListItemIcon color="tertiary">

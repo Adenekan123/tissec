@@ -48,7 +48,7 @@ export const Pricing = () => {
                       <Typography>/ Per Month</Typography>
                     </Box>
                   </Stack>
-                  <List sx={{width:{xs:'60%',md:'90%'},mx:'auto'}}>
+                  <List >
                     {priviledges.map((priviledge) => (
                       <ListItem key={nanoid(3)}>
                         <ListItemIcon>
