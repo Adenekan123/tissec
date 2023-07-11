@@ -8,6 +8,7 @@ const Nav = ({navProps}:{navProps:StackProps}) => {
       size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
+      href='/'
     >
       Home
     </Button>
@@ -15,6 +16,7 @@ const Nav = ({navProps}:{navProps:StackProps}) => {
       size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
+      href='/about'
     >
       About Us
     </Button>
@@ -22,6 +24,7 @@ const Nav = ({navProps}:{navProps:StackProps}) => {
       size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
+      href='/services'
     >
       Services
     </Button>
@@ -29,6 +32,7 @@ const Nav = ({navProps}:{navProps:StackProps}) => {
       size="small"
       sx={{ color: "white", fontWeight: 600 }}
       variant="text"
+      href='/services'
     >
       Blog
     </Button>
@@ -36,6 +40,7 @@ const Nav = ({navProps}:{navProps:StackProps}) => {
       color="warning"
       sx={{ color: "white", fontWeight: 600 }}
       variant="contained"
+      href='/contact'
     >
       Contact us
     </Button>

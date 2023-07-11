@@ -1,3 +1,4 @@
+import { HeaderLayout } from "@/layout/headerLayout";
 import "./globals.css";
 import { Titillium_Web } from "next/font/google";
 
@@ -23,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={titillium_Web.className}>{children}</body>
+      <body className={titillium_Web.className}><HeaderLayout>{children}</HeaderLayout> </body>
     </html>
   );
 }

@@ -1,5 +1,4 @@
 import { DEFAULT_STYLES } from "@/styles/default_styles";
-import { ReactJSXElement } from "@emotion/react/types/jsx-namespace";
 import { Container, Paper } from "@mui/material";
 import React, { ReactNode } from "react";
 

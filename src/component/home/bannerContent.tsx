@@ -1,85 +1,16 @@
-"use client";
-import React from "react";
-import {
-  Paper,
-  Container,
-  Grid,
-  Stack,
-  Typography,
-  Box,
-  Button,
-  AppBar,
-  Toolbar,
-} from "@mui/material";
-import { FaFacebookF } from "react-icons/fa";
-import { DEFAULT_STYLES } from "@/styles/default_styles";
-import { Twitter, Instagram } from "@mui/icons-material";
-
+"use client"
+import { Box, Button, Grid, Stack, Typography } from '@mui/material'
+import React from 'react'
+import { SocialButton } from '../shared'
+import { FaFacebookF } from 'react-icons/fa'
+import { Instagram, Twitter } from '@mui/icons-material'
+import { DEFAULT_STYLES } from '@/styles/default_styles'
+import Image from 'next/image'
 import banner_img from "../../assests/whiz-cyber-banner.png";
-import Image from "next/image";
-import forground_img from "../../assests/header-right-img.png";
-import AnimatedBgImage from "../shared/animatedBgImage";
-import Nav from "./nav";
-import SideMenu from "../shared/sideMenu";
-import { SocialButton } from "../shared";
 
-export const Header = () => {
+export const BannerContent = () => {
   return (
-    <Paper
-      square
-      sx={{
-        backgroundColor: DEFAULT_STYLES.darkerBlue,
-        backgroundPosition: "center",
-        backgroundRepeat: " no-repeat",
-        overflow:'hidden'
-      }}
-    >
-      <Container maxWidth={false}>
-        <AppBar
-          elevation={0}
-          color="transparent"
-          sx={{ px: { xs: 2, md: 10 }, py: 2 }}
-        >
-          <Toolbar sx={{ justifyContent: "space-between", p: 0 }}>
-            <Typography variant="h4" color={"white"}>
-              TISSEC
-            </Typography>
-
-            <Box sx={{ display: { xs: "none", md: "block" } }}>
-              <Nav navProps={{ direction: "row", spacing: 6 }} />
-            </Box>
-            <Box sx={{ display: { xs: "block", md: "none" } }}>
-              <SideMenu>
-                <Nav
-                  navProps={{
-                    spacing: 3,
-                    width: "50vw",
-                    height: "100%",
-                    py: 6,
-                    bgcolor: DEFAULT_STYLES.darkBlue,
-                  }}
-                />
-              </SideMenu>
-            </Box>
-          </Toolbar>
-        </AppBar>
-      </Container>
-      <Container maxWidth={false}>
-        <Box
-          sx={{
-            display: {xs:'none',md:'block'},
-            m: "0 0 1rem",
-            position: "absolute",
-            width: '100%',
-            height: 1262,
-            bottom: 88,
-            right: -500,
-            transform:'scale(1.4)'
-          }}
-        >
-          <AnimatedBgImage img={forground_img} styles={{animation:'star 10s ease-out infinite'}} />
-        </Box>
-        <Grid
+    <Grid
           container
           sx={{ py: 14, position: "relative", px: { xs: 2, md: 10 } }}
           spacing={{ xs: 4, md: 0 }}
@@ -142,8 +73,6 @@ export const Header = () => {
             </Box>
           </Grid>
         </Grid>
-      </Container>
-    </Paper>
-  );
-};
+  )
+}
 

@@ -1,16 +1,13 @@
 "use client";
-
-import { theme } from "@/styles/theme";
-import { Header } from "@/component/home";
-import { ThemeProvider } from "@mui/material";
-import { Footer } from "@/component/shared";
+import { BannerContent, Header } from "@/component/home";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
-    <ThemeProvider theme={theme}>
-      <Header />
+    <>
+      <Header>
+        <BannerContent />
+      </Header>
       {children}
-      <Footer />
-    </ThemeProvider>
+    </>
   );
 }
